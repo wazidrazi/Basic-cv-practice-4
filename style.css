@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    background-color: rgb(121, 185, 201);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.img-style{
+    height: 120px;
+    width: 100px;
+    border: 3px solid rgb(17, 16, 16);
+    border-radius: 50%;
+    float: left;
+}
+.header-info{
+    padding: 30px;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{
+    color: brown;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: rgb(133, 56, 56);
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+    background-color: rgb(201, 201, 201);
+    color: rgb(32, 32, 32);
+}
+.div-clear{
+    clear: both;
+}
+hr{
+     border: 3px solid black;
+     border-bottom: none;
+     margin: 30px auto;
+     width: 100%; 
+}
+.content{
+    margin-bottom: 40px;
+}
+.info-left{
+    width: 30%;
+    float: left;
+}
+.info-right{
+    width: 70%;
+    float: left;
+}
+.hr-style{
+    border: 1px solid black;
+    margin: 30px auto;
+    margin-bottom: none;    
+}
+.right1{
+    width: 45%;
+    float: left;
+}
+.right2{
+    width: 45%;
+    float: right;
+}
+.foot-style{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.foot-style a{
+    text-decoration: none;
+    color: rgb(195, 205, 50);
+    margin: 30px;
+
+}
+.foot-style a:hover{
+    color: cornflowerblue;
+}
+.foot-style p{
+    margin-top: 20px;
+    color: aliceblue;
+}
